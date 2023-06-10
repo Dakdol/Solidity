@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getlist",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "push",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "push2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230525/1.sol": "MSGSENDER3"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230525/1.sol": {
+			"keccak256": "0xed1746da1adec2b72aaa9050b895930bb82c1c99473e970d6a03933f0c523171",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://848fe8334c37ab90a62fd4ed589a8c746bcda660e48ba68bf851ff5a21f3d68f",
+				"dweb:/ipfs/QmRth5anmCYoJgkVQAnz7Ds2QXHpX9k7pNnoPi5E91NfoF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,174 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Teacher",
+						"type": "string"
+					}
+				],
+				"name": "getTeacher_Class",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct MAPPING.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Teacher",
+						"type": "string"
+					}
+				],
+				"name": "getTeacher_Student",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct MAPPING.Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Teacher",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_classes",
+						"type": "string[]"
+					}
+				],
+				"name": "setTeacher_Class",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Teacher",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "classes",
+						"type": "string[]"
+					}
+				],
+				"name": "setTeacher_Student",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230509_2.sol": "MAPPING"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230509_2.sol": {
+			"keccak256": "0xafcce4b7e8ac82061dc53697295da7cb46a0432caec2188cc95ed2d3a1a85b83",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8c403f3fed18e528096e7d8bf6ac056dca9a183391db94d8a592278de3175daf",
+				"dweb:/ipfs/QmchXdeLezXeayrKwB1mXu8Qeu6qv4zd55x5DWJD5cum88"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_class",
+						"type": "string"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Solidity Break!!/14.sol": "Q14"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Solidity Break!!/14.sol": {
+			"keccak256": "0xcb5fc49f52dc8c14ec220082b39252184963c8f8afc05e699918b377e4a80cfc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://059c7aa8a79b383c14bb96afd4e991d23735d09bac7b598f9a4bfde11a41874b",
+				"dweb:/ipfs/QmYjJyGFe4QDCzq3iicDUeQLUcbwdjFRFR6BUS8STcbkHc"
+			]
+		}
+	},
+	"version": 1
+}

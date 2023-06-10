@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "changeWallet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wallet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230516_1/3.sol": "CHILD"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230516_1/3.sol": {
+			"keccak256": "0x492fda46bfe7587614b86a871efe24b051d2bc11a434381924c8ce172cbac6b3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7d4df297660c35d3b86b85970dc785ed638c80ed434a7e1445bd09cd8218f0e4",
+				"dweb:/ipfs/QmTKZZ92nW6eU471knwpvgfnBTjyMuA7EAD1eViTC7LqM3"
+			]
+		}
+	},
+	"version": 1
+}

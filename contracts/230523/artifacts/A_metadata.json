@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "multi",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230523/a.sol": "A"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230523/a.sol": {
+			"keccak256": "0x05aefd060a03f2f87fe95e10e57a646a17d29614ba58678cad1a41b7fd572204",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c40c6ab0cb11258d8210e483e96661b24688adcb80d54c4713cb07a36b97816f",
+				"dweb:/ipfs/QmeaxiTAoaDqFrxhtZi8GX9iMrvjKTj1g6a4RyNTpTaghU"
+			]
+		},
+		"contracts/230523/b.sol": {
+			"keccak256": "0xe7c75f00b99f87b290301c308639c43021b73d4afc8cdafb4e32dbaad704b5f0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a314156544e94b1c65ca486a114add77e736a53111624feab64fd4f0ca0de570",
+				"dweb:/ipfs/Qmez9HBFHwyWRw5NG1bUKUVUqLNPwdwEXYeJtDiFYvd42d"
+			]
+		},
+		"contracts/230523/d/dd.sol": {
+			"keccak256": "0x0a4426a9e69f97d1b5aa1fc2fb28105f5f853e4a4a34fa374d1347cf3cec3181",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a9b7d74cc37ed83159b8601851ee0e6ef6e1e13fe3057ca4a0e3c36d8fc38d4c",
+				"dweb:/ipfs/QmdTUPXdv2wsV8DFd5xGdy2PPoqvMnp87bKEXrxjcHp65W"
+			]
+		}
+	},
+	"version": 1
+}

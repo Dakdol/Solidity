@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "autoNum",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Solidity Break!!/15.sol": "Q15"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Solidity Break!!/15.sol": {
+			"keccak256": "0x18a896082673d9c8444f3162457dd750b16f64c7c75803cae660413b6463a993",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a55276d5f94659f559e7b12cb06ae3ec64b65b079df14685275856d030f759b8",
+				"dweb:/ipfs/Qmc5hZq7FqTi3aPH1rmsEtnZq3gwXtFYNegUbgAtC42w72"
+			]
+		}
+	},
+	"version": 1
+}
