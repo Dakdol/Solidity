@@ -6,19 +6,56 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_aa",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "change",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_bb",
+						"name": "_b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_c",
 						"type": "uint256"
 					}
 				],
-				"name": "Add",
+				"name": "mul",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -27,52 +64,6 @@
 					}
 				],
 				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "Add2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getA",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getB",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setAasSeven",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -89,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/practice.sol": "practice"
+			"contracts/230612/1.sol": "A"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -103,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/practice.sol": {
-			"keccak256": "0xeb6df3f2c85df51b4ba4542586c8981d9dff7ed3dc1c2808e2cac49773d5ae6c",
-			"license": "GPL-3.0",
+		"contracts/230612/1.sol": {
+			"keccak256": "0xf780fd9d43168786b76d6762212b315d368dbb8bab48deea93fc6f25d61fc412",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://476b6812d486a1db2b6399aba5eff6b0a4b8dfcfa72180655477f5e609863fa8",
-				"dweb:/ipfs/QmSNMUZWkupQALvMBXqc7PZB4QGhvuuprqbWyGoBdmWwTm"
+				"bzz-raw://caa02771bf3c69b2611a81636bf273e6b94f29a4cbe7cf7e9e7a98020a3cd44c",
+				"dweb:/ipfs/QmXGgzdDa3oBgdf4FWc9qefxGJbHADt8XrLckczhdYTaMt"
 			]
 		}
 	},
